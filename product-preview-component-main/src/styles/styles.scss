@@ -1,0 +1,22 @@
+@use "variable";
+@use "main";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: variable.$cream;
+
+  h1,
+  h2 {
+    font-family: variable.$font-family2;
+  }
+  p {
+    font-family: variable.$font-family1;
+  }
+}
